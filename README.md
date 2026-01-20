@@ -2,7 +2,7 @@
 
 A local-first command-line knowledge base built with Python and SQLite.
 
-This tool is for developers who are constantly learning new tools, APIs, and frameworks and want a **fast, simple place to store and retrieve notes** — without cloud lock-in or heavy UIs.
+This tool is for developers who are constantly learning new tools, APIs, and frameworks and want a fast, simple place to store and retrieve notes — without cloud lock-in or heavy UIs.
 
 ## Why This Exists
 
@@ -26,19 +26,15 @@ This project is a focused alternative:
 - View a specific entry
 - Search by keyword
 - Delete entries
-- Export notes to Markdown or JSON
+- Export notes to Markdown
 - Local SQLite database (your data stays on your machine)
 
 ## Install
 
-> add
-Title: Python list comprehension
-Content: [x for x in items if x > 0]
-Type [note/code/link]: code
+```bash
+git clone https://github.com/kendallphotography13-star/knowledge-base.git
+cd knowledge-base
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
 
-> search python
-[3] Python list comprehension
-
-> view 3
-Python list comprehension
-[x for x in items if x > 0]
